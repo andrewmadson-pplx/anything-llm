@@ -359,7 +359,7 @@ class AgentHandler {
       case "generic-openai":
         return process.env.GENERIC_OPEN_AI_MODEL_PREF ?? null;
       case "perplexity":
-        return process.env.PERPLEXITY_MODEL_PREF ?? "sonar-small-online";
+        return process.env.PERPLEXITY_MODEL_PREF ?? "sonar";
       case "textgenwebui":
         return "text-generation-webui";
       case "bedrock":
